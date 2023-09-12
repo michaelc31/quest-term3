@@ -1,0 +1,20 @@
+  349  grep PHP wilders.csv > php.csv
+  350  grep 2019 wilders.csv > 2019.csv
+  351  grep France wilders.csv > France.csv
+  352  ls
+  353  cat france
+  354  cat france.csv
+  355  rm France.csv 
+  356  rm 2019.csv 
+  357  grep 2019 php.csv > 2019.csv
+  358  grep France 2019.csv > php_france_2019.csv
+  359  cat php_france_2019.csv 
+  360  grep JavaScript wilders.csv > javascript.csv
+  361  ls
+  362  grep Biarritz javascript.csv > biarritz.csv 
+  363  grep Toulouse javascript.csv > toulouse.csv 
+  364  cat toulouse.csv 
+  365  cat biarritz.csv 
+  366  cat biarritz.csv toulouse.csv > javascript_Biarritz_toulouse.csv
+  367  cat javascript_Biarritz_toulouse.csv 
+  393  history | tail -n 50 > history.txt
