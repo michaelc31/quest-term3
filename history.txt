@@ -17,4 +17,4 @@
   365  cat biarritz.csv 
   366  cat biarritz.csv toulouse.csv > javascript_Biarritz_toulouse.csv
   367  cat javascript_Biarritz_toulouse.csv 
-  393  history | tail -n 50 > history.txt
+  393  history | tail -n 20 > history.txt
