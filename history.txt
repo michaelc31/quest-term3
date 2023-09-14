@@ -1,4 +1,4 @@
-grep "France,2019,PHP" wilder.csv > php_france_2019.csv
+grep "France,2019,PHP" < wilder.csv | wc -l > php_france_2019.csv
 cat php_france_2019.csv
 grep JavaScript wilders.csv > javascript.csv
 grep Biarritz javascript.csv > biarritz.csv 
